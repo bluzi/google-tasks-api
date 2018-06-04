@@ -23,7 +23,7 @@ Choose `OAuth client ID`, then under application type choose `Other`, press `Cre
 ## Usage
 If you're on Node, import the API using: (You can skip that if you're not using Node)
 ```js
-import googleTasksApi from 'google-tasks-api'`
+import googleTasksApi from 'google-tasks-api'
 ```
 or 
 ```js
