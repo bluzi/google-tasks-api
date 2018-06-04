@@ -7,12 +7,12 @@ This package contains the code from the above repository with some additions I m
 
 ## Install
 If you're using Node:
-```
+```bash
 npm i google-tasks-api
 ```
 
 Or, if you're using plain JavaScript, just add the following script tag: 
-```
+```html
 <script src="https://cdn.jsdelivr.net/npm/google-tasks-api@latest/dist/index.min.js"></script>
 ```
 
@@ -22,16 +22,16 @@ Choose `OAuth client ID`, then under application type choose `Other`, press `Cre
 
 ## Usage
 If you're on Node, import the API using: (You can skip that if you're not using Node)
-```
+```js
 import googleTasksApi from 'google-tasks-api'`
 ```
 or 
-```
+```js
 const googleTasksApi = require('google-tasks-api')
 ```
 
 Now you can start using the API. Start by autorizing: 
-```
+```js
 await googleTasksAPI.autorize('yourclientid')
 ```
 
