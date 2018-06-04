@@ -1,3 +1,4 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/bluzi/google-tasks-api/badge.svg?targetFile=package.json)](https://snyk.io/test/github/bluzi/google-tasks-api?targetFile=package.json) [![Build Status](https://travis-ci.org/bluzi/google-tasks-api.svg?branch=master)](https://travis-ci.org/bluzi/google-tasks-api)
 # Google Tasks API
 ## What is it good for?
 Google made their API so hard to understand, so after struggling with their documentation for their Tasks API I've found [this repository](https://github.com/KarafiziArtur/react-google-tasks) that has a well written abstraction around the Tasks API.
