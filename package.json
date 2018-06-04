@@ -1,0 +1,32 @@
+{
+  "name": "google-tasks-api",
+  "version": "1.0.0",
+  "description": "Google Tasks API for humans",
+  "main": "dist/index.min.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "rollup -c",
+    "deploy": "npm run build && np"
+  },
+  "keywords": [
+    "google",
+    "google tasks",
+    "google tasks api"
+  ],
+  "author": "Eliran Pe'er (eliran013@gmail.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluzi/google-tasks-api"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "np": "^3.0.4",
+    "rollup": "^0.59.4",
+    "rollup-plugin-uglify": "^4.0.0",
+    "uglify-es": "^3.3.9"    
+  },
+  "files": [
+    "dist/**"
+  ]
+}
