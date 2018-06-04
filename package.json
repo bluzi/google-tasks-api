@@ -1,6 +1,6 @@
 {
   "name": "google-tasks-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Google Tasks API for humans",
   "main": "dist/index.min.js",
   "scripts": {
