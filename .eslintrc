@@ -1,7 +1,7 @@
 {
     "extends": "standard",
     "globals": {
-        "gapi"
+        "gapi": true
     },
     "env": {
         "browser": true
