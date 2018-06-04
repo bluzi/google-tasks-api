@@ -1,0 +1,9 @@
+{
+    "extends": "standard",
+    "globals": {
+        "gapi"
+    },
+    "env": {
+        "browser": true
+    }
+}
