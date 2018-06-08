@@ -1,5 +1,3 @@
-const uglify = require('rollup-plugin-uglify').uglify;
-const minify = require('uglify-es').minify;
 const babel = require('rollup-plugin-babel');
 
 export default {
@@ -13,6 +11,5 @@ export default {
     babel({
       exclude: 'node_modules/**'
     }),
-    uglify({}, minify),
   ]
 }; 
