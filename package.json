@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm run build && karma start",
     "build": "rollup -c",
+    "predeploy": "npm run build",
     "deploy": "npm run build && np",
     "lint": "eslint lib/",
     "lint:fix": "eslint --fix lib/"
